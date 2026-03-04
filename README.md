@@ -17,6 +17,13 @@ Data cleaning, transformation, and normalization.
 ### Gold Layer
 Business-ready tables and dimensional models.
 
+## Workflow Orchestration
+
+The pipeline is orchestrated using Databricks Jobs.
+
+Bronze → Silver → Gold layers are executed using task dependencies.
+
+![Workflow](architecture/workflow_orchestration.png)
 ## Technologies Used
 - Databricks
 - Delta Lake
